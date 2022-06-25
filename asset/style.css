@@ -1,0 +1,104 @@
+p, figure {
+    margin: 0;
+    padding: 0px 7px;
+    display: flex;
+    justify-content: center;
+}
+.modalButton {
+    border: 2px solid #ff0076;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #ff0076!important;
+    cursor: pointer;
+    display: inline-block;
+    font: 500 25px/20px Roboto,sans-serif;
+    margin: 0;
+    background: transparent;
+    /* min-width: 36px; */
+    outline: 0;
+    overflow: hidden;
+    padding: 14px;
+    width: 165px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    transition: background-color .2s,box-shadow .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    /* padding: 7px 16px; */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+}
+.modalButton:hover {
+color: #ffffff!important;
+background-color: #039be540;
+border: 2px solid #db9bc1;
+}
+#news {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(22 21 21);
+}
+.scrollnews {
+    position: absolute;
+    width: 690px;
+    height: 40px;
+    top: 105px;
+    margin-left: 111px;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: inherit;
+}
+#news span {
+    background: #6c0909;
+    float: left;
+    margin-top: 1px;
+    padding-left: 0px;
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+#liscroll > li {
+    padding-top: 0px;
+    margin-left: -50px;
+    color: #fff;
+}
+
+.aligncenter{margin-top:1em;margin-right:auto;margin-bottom:1em;margin-left:auto}.aligncenter{display:block;text-align:center;margin-left:auto;margin-right:auto}.amp-wp-enforced-sizes{max-width:100%;margin:0 auto}amp-img.amp-wp-enforced-sizes[layout="intrinsic"] > img,amp-anim.amp-wp-enforced-sizes[layout="intrinsic"] > img{object-fit:contain}html{margin-top: -22px;background: #260000 url(/9naga/img/bg.jpg) top left repeat;}body{background:#000000ad;color:#dedede;font-family:Georgia,"Times New Roman",Times,Serif;font-weight:300;line-height:1.75em}a,a:visited{color:#dedede}a:hover,a:active,a:focus{color:#dedede}.amp-wp-header div,.amp-wp-title,.amp-wp-footer p,.back-to-top{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif}.amp-wp-header{background-color:#000}.amp-wp-header div{color:#fff;font-size:1em;font-weight:400;margin:0 auto;max-width:calc(840px - 32px);padding:.875em 16px;position:relative}.amp-wp-header a{color:#fff;text-decoration:none}.amp-wp-header .amp-wp-site-icon{background-color:#fff;border:1px solid #fff;border-radius:50%;position:absolute;right:18px;top:10px}.amp-wp-article{background: #00000000;color:#dedede;font-weight:400;margin:1.5em auto;max-width:840px;overflow-wrap:break-word;word-wrap:break-word}.amp-wp-article-header{align-items:center;align-content:stretch;display:flex;flex-wrap:wrap;justify-content:space-between;margin:1.5em 16px 0}.amp-wp-title{color:#dedede;display:block;flex:1 0 100%;font-weight:900;margin:0;width:100%}.amp-wp-article-content{margin:0 16px}.amp-wp-article-content amp-img{margin:0 auto}.amp-wp-footer{border-top:1px solid #707070;margin:calc(1.5em - 1px) 0 0}.amp-wp-footer div{margin:0 auto;max-width:calc(840px - 32px);padding:1.25em 16px 1.25em;position:relative}.amp-wp-footer h2{font-size:1em;line-height:1.375em;margin:0 0 .5em}.amp-wp-footer p{color:#b1b1b1;font-size:.8em;line-height:1.5em;margin:0 85px 0 0}.amp-wp-footer a{text-decoration:none}.back-to-top{bottom:1.275em;font-size:.8em;font-weight:600;line-height:2em;position:absolute;right:16px}a,a:active,a:visited{text-decoration:none}:root:not(#_):not(#_):not(#_):not(#_):not(#_) .amp-wp-cdd8ca0{text-align:center;background: #6c0909;}:root:not(#_):not(#_):not(#_):not(#_):not(#_) .amp-wp-33e85a3{color:#fff}
+
+
+@media screen and (min-width: 720px) {
+.iklan {
+
+    padding: 10px 242px;
+}
+}
+@media screen and (min-width: 600px) {
+    .iklan {
+    
+        padding: 32px 327px;
+    }
+    }
+@media screen and (min-width: 400px) {
+.iklan {
+    padding: 48px 18px !important;
+    font-size: 18px;
+    font-family: emoji;
+}
+    }
+    @media screen and (max-width: 400px) {
+        .modalButton{
+            width: 100%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+           
+                .carousel {
+                   
+                    height: 191px !important;
+                }}
+  
+  
